@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mandali&display=swap');
+
+body {
+  background-color: white;
+  margin: 10;
+  padding: 0;
+}
+
+.heading {
+  font-family: 'Mandali', sans-serif;
+  text-align: left;
+  font-size: 50px;
+  color: green;
+  margin-top: 0px;
+  margin-right: 0px;
+}
+
+.logo{
+  width: 120px;
+  border: green;
+  border-width: 20px;
+  margin-left: 400px;
+  margin-top: -250px;
+
+}
+
+h3{
+  font-family: 'Mandali', sans-serif;
+  margin-bottom: -10px;
+  margin-top: -50px;
+  text-align: left;
+}
+iframe{
+  width: 300px;
+  margin-top: 100px;
+  margin-left: 800px;
+}
+#header{
+  border: solid green;
+  border-width: 5px;
+  padding: 10px;
+  background-color: white;
+}
+
+h2 {
+  font-family: 'Mandali', sans-serif;
+}
+
+#carsale {
+  margin-left: 100px;
+  text-decoration:underline
+}
+
+#mechanic{
+  margin-top: -68px;
+  margin-left: 620px;
+  text-decoration:underline
+
+}
+
+#support{
+  margin-top: -60px;
+  margin-left: 1220px;
+  text-decoration:underline
+}

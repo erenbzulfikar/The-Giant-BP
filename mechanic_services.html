@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gas Station - Mechanic Services</title>
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Mandali&display=swap');
+    /* Add some basic styles for the page */
+    body {
+      font-family: 'Mandali', sans-serif;;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      color: green;
+    }
+
+    .service {
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>The Giant BP Mechanic Services</h1>
+
+  <div class="service">
+    <h2>Oil Change</h2>
+    <p>Regular oil changes are essential for maintaining your vehicle's performance and longevity.</p>
+    <p>Price: $50</p>
+  </div>
+
+  <div class="service">
+    <h2>Tire Rotation</h2>
+    <p>Regular tire rotations help ensure even wear and extend the lifespan of your tires.</p>
+    <p>Price: $20</p>
+  </div>
+
+  <div class="service">
+    <h2>Brake Inspection</h2>
+    <p>A brake inspection can help identify potential issues and ensure your brakes are working properly.</p>
+    <p>Price: $30</p>
+  </div>
+
+  <button class="btn" onclick="location.href = 'https://calendly.com/thegiantbp/mechanic' ">Book an Appointment</button>
+
+  <script>
+    function bookAppointment() {
+      // Add your booking logic here
+      alert("Booking an appointment...");
+      
+      // You can redirect the user to a booking page or display a form for appointment details
+    }
+    
+  </script>
+</body>
+</html>
